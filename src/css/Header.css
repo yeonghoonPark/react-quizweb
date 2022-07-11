@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 62px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav span {
+    align-self: center;
+    margin-left: 60px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav span:hover{
+    color: #00E697;
+}
+
+.hidden{
+    display: none;
+}
