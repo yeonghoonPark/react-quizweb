@@ -1,29 +1,38 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 48px 62px;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.title {
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 62px 0;
+}
+
+.header .title {
     font-weight: 700;
     font-size: 24px;
 }
 
-.nav{
+.header .nav{
     display: flex;
 }
 
-.nav span {
+.header .nav span {
     align-self: center;
     margin-left: 60px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
 }
 
-.nav span:hover{
+.header .nav span:hover{
     color: #00E697;
 }
 
-.hidden{
+.header .hidden{
     display: none;
 }
+
+
