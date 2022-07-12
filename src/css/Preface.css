@@ -1,5 +1,11 @@
+.preface{
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .preface .text p {
-    position: fixed;
+    position: absolute;
     font-weight: 500;
     font-size: 72px;
 }
@@ -29,7 +35,7 @@
 }
 
 .preface .text button {
-    position: fixed;
+    position: absolute;
     left: 160px;
     top: 597px;
     width: 176px;
@@ -49,7 +55,7 @@
 }
 
 .preface img {
-    position: fixed;
+    position: absolute;
     width: 133px;
     height: 30px;
     left: 1084px;

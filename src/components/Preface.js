@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png"
 import "../css/Preface.css";
 
@@ -10,7 +11,7 @@ function Preface(){
                     <p>Tirrilee</p>
                     <p>dev test kit</p>
                     <p><span>&#125;</span></p>
-                    <button>START QUIZ</button>
+                    <Link to="/login"><button>START QUIZ</button></Link>
                 </div>
                 <img src={logo} alt="Tirrilee" />
             </div>
