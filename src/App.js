@@ -1,12 +1,12 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
 import './css/reset.css';
-import Main from "./main";
-import Login from "./login";
-
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-
+import Main from "./components/Main";
+import Login from "./components/Login";
+import Quiz from "./components/Quiz";
 
 function App() {
+  
   return (
     <HashRouter>
       <div className="App" style={{backgroundColor: "#131626"}}>
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />}/>
           <Route path="/login" element={<Login />}/>
+          <Route path="/quiz" element={<Quiz />}/>
         </Routes>
       </div>
     </HashRouter>
