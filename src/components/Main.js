@@ -9,7 +9,6 @@ function Main() {
         loginBtn.classList.add('active');
     }
 
-
     return (
         <div className="main">
             <section className="preface">

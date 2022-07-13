@@ -1,7 +1,6 @@
 import "../css/Header.css";
 import { Link, useNavigate } from "react-router-dom";
 
-
 function Header() {
 
     const navigate = useNavigate();
@@ -33,7 +32,6 @@ function Header() {
         goHome();
         window.location.reload();
     }
-
 
     if (savedUserInfo) {
         return (

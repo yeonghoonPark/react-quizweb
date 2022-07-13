@@ -8,17 +8,16 @@ import Ranking from './components/Ranking';
 import Mypage from './components/Mypage';
 
 function App() {
-  
   return (
     <HashRouter>
-      <div className="App" style={{backgroundColor: "#131626"}}>
+      <div className="App" style={{ backgroundColor: "#131626" }}>
         <Header />
         <Routes>
-          <Route path="/" element={<Main />}/>
-          <Route path="/login" element={<Login />}/>
-          <Route path="/quiz" element={<Quiz />}/>
-          <Route path="/ranking" element={<Ranking />}/>
-          <Route path="/mypage" element={<Mypage />}/>
+          <Route path="/" element={<Main />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/ranking" element={<Ranking />} />
+          <Route path="/mypage" element={<Mypage />} />
         </Routes>
       </div>
     </HashRouter>
