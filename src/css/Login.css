@@ -1,4 +1,4 @@
-.login{
+.login {
     max-width: 1280px;
     height: 100vh;
     margin: 0 auto;
@@ -41,6 +41,6 @@
     transition: 0.1s;
 }
 
-.login-form input:last-child:hover{
+.login-form input:last-child:hover {
     transform: scale(1.1);
 }

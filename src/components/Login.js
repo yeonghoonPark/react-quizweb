@@ -8,7 +8,7 @@ function Login() {
     const goQuiz = () => {
         navigate("/quiz");
     }
-    
+
     let saveUserInfoArray = [];
 
     const saveUserInfo = () => {
@@ -31,7 +31,7 @@ function Login() {
     }
 
     const loginSuccessMessage = (id) => {
-        alert(`${id}님 로그인에 성공하였습니다.`);
+        alert(`'${id}'님 로그인에 성공하였습니다.`);
         goQuiz();
         window.location.reload();
     }

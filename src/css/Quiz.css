@@ -1,5 +1,112 @@
-.quiz{
+.quiz {
     max-width: 1280px;
     height: 100vh;
     margin: 0 auto;
+    position: relative;
+}
+
+.quiz .container {
+    width: 568px;
+    margin: 0 auto;
+    padding-top: 216px;
+
+}
+
+.quiz .quiz-add {
+    position: absolute;
+    width: 157px;
+    height: 72px;
+    left: 277px;
+    top: 180px;
+    z-index: 5;
+    background: rgba(0, 230, 151, 0.1);
+    border: 2px solid rgba(0, 230, 151, 0.4);
+    backdrop-filter: blur(32px);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1;
+    cursor: pointer;
+}
+
+.quiz .quiz-add:hover {
+    transform: scale(1.1);
+}
+
+.quiz .quiz-add p {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.quiz .quiz-box {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+    background: rgba(213, 216, 220, 0.1);
+    border: 2px solid #5A5E6A;
+    backdrop-filter: blur(32px);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz .quiz-skip {
+    position: absolute;
+    width: 114px;
+    height: 38px;
+    left: 788px;
+    top: 474px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.quiz .quiz-skip:hover {
+    transform: scale(1.1);
+}
+
+.quiz .quiz-skip img {
+    position: absolute;
+    left: 15.2%;
+    right: 17.08%;
+    top: 25.26%;
+    bottom: 14.26%;
+}
+
+.quiz .quiz-skip p {
+    position: absolute;
+    left: 37.80%;
+    right: 17.08%;
+    top: 14.80%;
+    bottom: 14.26%;
+    width: 60px;
+    height: 24px;
+    font-size: 16px;
+    color: #7F828C;
+
+}
+
+.quiz-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-btns button {
+    width: 176px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 17px;
+    background: #3B3F4A;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.quiz-btns button:hover {
+    transform: scale(1.1);
 }

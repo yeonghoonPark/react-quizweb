@@ -1,13 +1,13 @@
-.main{
+.main {
     max-width: 1280px;
     height: 100vh;
     margin: 0 auto;
 }
 
-.preface{
-    position: relative;
+.preface {
     max-width: 1280px;
     margin: 0 auto;
+    position: relative;
 }
 
 .preface .text p {

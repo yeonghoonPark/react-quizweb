@@ -8,7 +8,8 @@ function Main() {
         const loginBtn = document.querySelector('.login-btn');
         loginBtn.classList.add('active');
     }
-    
+
+
     return (
         <div className="main">
             <section className="preface">

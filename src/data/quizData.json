@@ -1,0 +1,32 @@
+[
+    {
+        "quiz": "학교폭력 상담 전화는 몇번일까요?",
+        "wrong1": "119",
+        "wrong2": "911",
+        "correct": "117"
+    },
+    {
+        "quiz": "북한에서 얼음보숭이라고 부르는 이것은 무엇을 의미하나요?",
+        "wrong1": "고슴도치",
+        "wrong2": "복숭아",
+        "correct": "아이스크림"
+    },
+    {
+        "quiz": "e-mail의 e는 무슨 약자인가요?",
+        "wrong1": "e-commerce",
+        "wrong2": "explorer",
+        "correct": "electronic"
+    },
+    {
+        "quiz": "오리가 얼면?",
+        "wrong1": "청둥오리",
+        "wrong2": "회오리",
+        "correct": "언덕"
+    },
+    {
+        "quiz": "우리나라는 몇개의 광역시로 이루어져 있나요?",
+        "wrong1": "8개",
+        "wrong2": "10개",
+        "correct": "6개"
+    }
+]
